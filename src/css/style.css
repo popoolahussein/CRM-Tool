@@ -1,0 +1,12 @@
+* {
+  padding: 0.0001px;
+  margin: 0.001px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
