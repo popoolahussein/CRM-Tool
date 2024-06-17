@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
   "version": "1.1",
-  "name": "Leads tracker",
+  "name": "CRM tool",
   "action": {
     "default_popup": "index.html",
     "default_icon": "/src/images/icon.png"
-  }
+  },
+  "permissions": ["tabs"]
 }
