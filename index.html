@@ -1,22 +1,34 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Hussein" />
-    <meta
-      name="description"
-      content="This is a responsive customer relationship management tool (CRM-tool),it is built as a chrome extension for global accessibility."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/src/css/style.css" />
-    <title>CRM-tool</title>
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Hussein" />
+  <meta
+    name="description"
+    content="This is a responsive customer relationship management tool (CRM-tool),it is built as a chrome extension for global accessibility."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/src/css/style.css" />
+  <title>CRM-tool</title>
+</head>
+<body>
+  <main>
+    <h1 class="heading">CRM extension</h1>
+    <label for="input">Customer URL:</label>
+    <input type="text" id="input" aria-label="Customer URL" />
+    <div>
+      <button id="save-input">SAVE INPUT</button>
+      <button id="tab-btn">SAVE TAB</button>
+      <button id="delete-btn">DELETE ALL</button>
+    </div>
+    <ul id="crm-list"></ul>
+  </main>
   <script type="module" src="src/js/main.js"></script>
+</body>
 </html>
