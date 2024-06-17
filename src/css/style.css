@@ -1,12 +1,76 @@
 * {
-  padding: 0.0001px;
-  margin: 0.001px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  background: url('/src/images/my-extension.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  display: grid;
+  font-family: 'Poetsen One', sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
-  font-style: normal;
+  gap: 5px;
+  flex-flow: row wrap;
+  padding: 1rem;
+  min-width: 19rem;
+}
+
+.heading {
+  color: goldenrod;
+}
+
+label {
+  color: azure;
+}
+
+input {
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  background: gray;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+button {
+  background-color: #2a7b2a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  color: azure;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2a7b2a;
+}
+
+#delete-btn {
+  background: red;
+  color: white;
 }
